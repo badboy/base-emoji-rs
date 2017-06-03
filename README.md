@@ -9,6 +9,10 @@ Convert everything to Emojis.
 
 Reimplementation of [base_emoji](https://github.com/pfrazee/base-emoji) (JavaScript).
 
+## Documentation
+
+[Documentation available online](https://docs.rs/base_emoji).
+
 ## Example
 
 ```rust
