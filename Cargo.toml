@@ -16,6 +16,9 @@ include = [
   "examples/**/*"
 ]
 
+[[bin]]
+doc = false
+name = "base-emoji"
 
 [dependencies]
 phf = "0.7"
