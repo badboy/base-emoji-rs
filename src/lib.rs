@@ -1,6 +1,6 @@
 //! # base_emoji
 //!
-//! Convert everything to Emojis.
+//! Convert everything to Emojis (and back)!
 //!
 //! 🐫🔦🔥🎲🐬🍀🍟🔋🐬🎲🐬🍀🎁🍟💧👂🔥🚪🔋🍟🔦🔋🚗👣🔦🌍👂🍤🐗
 //!
@@ -23,6 +23,10 @@
 //! > converter reads sequences of 8 bits at a time, and so only maps the value to
 //! > the first 256 of them. To stay consistent with other renderings, make sure you
 //! > don't change the order of your emojis.json.
+//!
+//! ## Decoding
+//!
+//! Decoding requires the use of only the same 256 emojis used above.
 //!
 //! ## License
 //!

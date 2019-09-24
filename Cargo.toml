@@ -3,7 +3,7 @@ name = "base_emoji"
 version = "1.0.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
-description = "Convert everything to Emojis. - 🐫🔦🔥🎲🐬🍀🍟🔋🐬🎲🐬🍀🎁🍟💧👂🔥🚪🔋🍟🔦🔋🚗👣🔦🌍👂🍤🐗"
+description = "Convert everything to Emojis (and back)! - 🐫🔦🔥🎲🐬🍀🍟🔋🐬🎲🐬🍀🎁🍟💧👂🔥🚪🔋🍟🔦🔋🚗👣🔦🌍👂🍤🐗"
 
 repository = "https://github.com/badboy/base-emoji-rs"
 homepage = "https://github.com/badboy/base-emoji-rs"
