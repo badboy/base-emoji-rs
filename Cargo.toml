@@ -29,6 +29,7 @@ name = "base-emoji"
 
 [dependencies]
 phf = "0.7"
+unicode-segmentation = "1.3"
 
 [build-dependencies]
 phf_codegen = "0.7"
