@@ -43,7 +43,7 @@ fn main() {
 
     let mut m = phf_codegen::Map::new();
 
-    assert!(emojis.len() >= 255);
+    assert!(emojis.len() >= 256);
 
     for (idx, emoji) in emojis.iter().enumerate().take(256) {
         let out = format!("({:?}, {:?})", emoji.character, emoji.name);
@@ -67,7 +67,7 @@ fn main() {
 
     let mut m = phf_codegen::Map::new();
 
-    assert!(emojis.len() >= 255);
+    assert!(emojis.len() >= 256);
 
     for (idx, emoji) in emojis.iter().enumerate().take(256) {
         m.entry(emoji.character.as_str(), &format!("{}u8", idx as u8));
