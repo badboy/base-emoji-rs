@@ -26,6 +26,7 @@ include = [
 [[bin]]
 doc = false
 name = "base-emoji"
+path = "src/bin/main.rs"
 
 [dependencies]
 phf = "0.7"
