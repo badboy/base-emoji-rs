@@ -3,7 +3,7 @@
 [![crates.io](http://meritbadge.herokuapp.com/base_emoji)](https://crates.io/crates/base_emoji)
 [![Build Status](https://travis-ci.org/badboy/base-emoji-rs.svg?branch=master)](https://travis-ci.org/badboy/base-emoji-rs)
 
-Convert everything to Emojis.
+Convert everything to Emojis (and back)!
 
 🐫🔦🔥🎲🐬🍀🍟🔋🐬🎲🐬🍀🎁🍟💧👂🔥🚪🔋🍟🔦🔋🚗👣🔦🌍👂🍤🐗
 
@@ -30,6 +30,10 @@ Citing [the README](https://github.com/pfrazee/base-emoji/blob/04b6c1e24ae507180
 > converter reads sequences of 8 bits at a time, and so only maps the value to
 > the first 256 of them. To stay consistent with other renderings, make sure you
 > don't change the order of your emojis.json.
+
+## Decoding
+
+Decoding requires the use of only the same 256 emojis used above.
 
 ## License
 
