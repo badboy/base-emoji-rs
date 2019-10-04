@@ -1,6 +1,6 @@
 [package]
 name = "base_emoji"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
 description = "Convert everything to Emojis (and back)! - 🐫🔦🔥🎲🐬🍀🍟🔋🐬🎲🐬🍀🎁🍟💧👂🔥🚪🔋🍟🔦🔋🚗👣🔦🌍👂🍤🐗"
